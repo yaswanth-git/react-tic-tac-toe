@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
+}
+.player {
+  font-size: 150%;
+}
